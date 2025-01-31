@@ -20,7 +20,7 @@ export default {
     "^.+\\.ts$": [
       "ts-jest",
       {
-        tsconfig: ".eslint.json",
+        tsconfig: "tsconfig.eslint.json",
         useESM: true,
       },
     ],
